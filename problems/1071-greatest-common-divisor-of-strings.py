@@ -1,4 +1,9 @@
-# https://leetcode.com/problems/two-sum/
+"""
+tag: array
+difficulty: easy
+link: https://leetcode.com/problems/greatest-common-divisor-of-strings
+hint: Try every prefix length from longest to shortest and check if it can build both strings.
+"""
 
 class Solution:
     def gcdOfStrings(self, str1: str, str2: str) -> str:

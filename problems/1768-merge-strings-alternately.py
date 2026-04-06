@@ -1,4 +1,9 @@
-#https://leetcode.com/problems/merge-strings-alternately/description/?envType=study-plan-v2&envId=leetcode-75 https://leetcode.com/problems/two-sum/
+"""
+tag: array
+difficulty: easy
+link: https://leetcode.com/problems/merge-strings-alternately
+hint: Use two pointers and alternate between each string until both are exhausted.
+"""
 
 class Solution:
     def mergeAlternately(self, word1: str, word2: str) -> str:

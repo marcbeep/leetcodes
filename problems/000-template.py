@@ -1,4 +1,9 @@
-# https://leetcode.com/problems/two-sum/
+"""
+tag: array
+difficulty: easy
+link: https://leetcode.com/problems/two-sum/
+hint: Use a hashmap to store seen values and check complements in one pass.
+"""
 
 class Solution:
     def twoSum(self, nums: list[int], target: int) -> list[int]:
